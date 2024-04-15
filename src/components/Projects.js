@@ -3,8 +3,8 @@ import { Fade } from "react-awesome-reveal";
 export default function Projects() {
   return (
     <>
-      <div className="bg-black flex flex-col h-screen justify-center items-center">
-        <div className="flex justify-center text-red-700 font-bold underline text-3xl mb-12 mt-12">
+      <div className="bg-black flex flex-col items-center">
+        <div className="flex text-red-700 font-bold underline text-3xl mb-12 mt-12">
           <h1>Projects</h1>
         </div>
         <section id="Projects">
@@ -68,12 +68,12 @@ export default function Projects() {
             </div>
           </Fade>
         </section>
-        <div className="flex justify-center text-red-700 font-bold underline text-3xl mb-12 mt-12">
+        <div className="flex text-red-700 font-bold underline text-3xl mb-12 mt-12">
           <h1> Current projects</h1>
         </div>
         <section id="Projects" className="grid ">
           <Fade direction="right">
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 space-x-4 overflow-hidden">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 overflow-hidden">
               <div>
                 <h3 className="text-gray-200 text-center mb-2">
                   Leather bag E-Commerce

@@ -50,11 +50,11 @@ export default function Contact () {
 
     return (
         <>
-        <div className="bg-black flex flex-col h-screen justify-center items-center">
-              <div className="flex justify-center text-red-700 font-bold underline text-3xl mb-12 mt-12">
+        <div className="bg-black flex flex-col h-screen items-center">
+              <div className="flex text-red-700 font-bold underline text-3xl mb-12 mt-12">
                 <h1>Contact</h1>
               </div>
-              <section id="Contact" className="">
+              <section id="Contact">
                 <form
                   ref={form}
                   onSubmit={handleSubmit}

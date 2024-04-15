@@ -82,7 +82,7 @@ export default function Menu() {
         </button>
       </nav>
       <div
-        className={`font-bold mt-20 ml-6 z-20 fixed ${
+        className={`font-bold mt-20 ml-6 z-20 fixed bg-black pr-10 pb-4 rounded-lg ${
           isMenuOpen ? "block" : "hidden"
         }`}
       >
