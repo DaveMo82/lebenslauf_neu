@@ -14,7 +14,7 @@ export default function About() {
   };
 
   const handleCv = () => {
-    const cvFile = `${process.env.PUBLIC_URL}/CV.pdf`;
+    const cvFile = `${process.env.PUBLIC_URL}/CV_neu.pdf`;
     openFileInBrowser(cvFile);
   };
 
