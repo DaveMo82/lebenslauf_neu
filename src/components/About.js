@@ -1,5 +1,6 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Video from "../components/Video";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -57,21 +58,22 @@ export default function About() {
                 contribute to innovative projects.
               </p>
             </div>
-            <div className="flex justify-center n text-sm lg:text-sm">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-10">
               <button
                 type="button"
-                className="rounded-lg bg-red-700 px-4 py-1 mt-10 mr-6"
+                className="rounded-lg bg-red-700 px-4 py-1 mt-10 mr-6 md:text-sm text-xs"
                 onClick={handleCv}
               >
                 Download CV
               </button>
               <button
                 type="button"
-                className="rounded-lg bg-red-700 px-4 py-1 mt-10"
+                className="rounded-lg bg-red-700 px-4 py-1 mt-10 md:text-sm text-xs"
                 onClick={handleCertificateDownload}
               >
                 Download Certificate
               </button>
+              <Video />
             </div>
           </div>
           <div className="relative left-[-1450px] w-36 md:w-48 lg:w-64 mt-20 sm:mt-12 lg:ml-0 mb-32 animated-picture-container">
