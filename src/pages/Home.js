@@ -112,7 +112,7 @@ const Home = () => {
                       />
                     </a>
                     <a
-                      href="https://github.com/DaveMorin35"
+                      href="https://github.com/DaveMo82"
                       target="_blank"
                       rel="noreferrer"
                     >
